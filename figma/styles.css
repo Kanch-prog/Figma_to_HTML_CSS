@@ -1,0 +1,239 @@
+*,
+*::afeter,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: black;
+    max-width: 1440px;
+}
+
+header {
+    width: 100%;   
+    height: auto;
+}
+nav {
+    display: flex;
+    width: 1298px;
+    height: 87px;
+    margin-left: 71px;
+    margin-right: 71px;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+nav .logo {
+    width: 87px;
+    height: 87px;
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    list-style: none;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.hero-section {
+    background-image: url("./images/banner.png");
+    width: 100%;
+    height: 803px;
+    margin-top: 31px;    
+}
+.hero-section .left {
+    width: 900px;
+    height: 502.57px;
+    margin-left: 50px;
+    padding-top: 7px;
+    align-items: left;
+    justify-content: space-between;        
+}
+.hero-section .left h1 {
+    color: #FFFFFF;
+    font-size: 87px;
+    text-align: left;
+    width: 900px;
+    height: 220px;
+    margin-bottom: 18px;
+    
+}
+.hero-section .left p {
+    color: #FFFFFF;
+    text-align: left;    
+}
+
+.hero-section .left a.btn-light {
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 203px;
+    height: 59.57px;        
+    color: #000000;
+    background-color: #FFED00;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+     
+}
+
+.container {
+    width: 1155px; 
+    height: 303px;
+    margin-top: -147.43px; 
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 142px;
+  }
+  
+  .container .content {
+    width: 285px;
+    height: 303px;
+    background-color: #3B3B3B;
+    margin-right: 150px;
+    border-radius: 23px;
+  }
+  
+  .container .content:last-child {
+    margin-right: 0;
+  }
+  .container .content .item {
+    padding: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .container .content .item img {
+    width: 105px;
+    height: 105px;
+    align-self: center; 
+  }
+  .container .content .item p {
+    width: 177px;
+    height: 115px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    
+  }
+  .contact {
+    width: 1339.43px;
+    height: 1007px;
+    margin-left: 61px;
+    margin-top: 100px;
+}
+
+.contact h4 {
+    color: #FFED00;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.contact p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 902px;
+    height: 46px;
+}
+
+.contact-form {
+    width: 1339.43px;
+    height: 442px;
+    display: flex;
+}
+
+.contact-form .left {
+    width: 554px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.contact-form .left label {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 550px;
+    height: 90px;
+    border-radius: 50px;
+    border-color: #FFED00;
+    background-color: #000000;
+    text-align: left;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 203px;
+    height: 59.57px;
+    background-color: #FFED00;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form .right {
+    width: 592.943px;
+    height: 560.62px;
+    margin-left: 282px;
+    display: flex;
+}
+
+.contact-form .right img {
+    width: 503.43px;
+    height: 442px;
+    border-radius: 53px;
+}
+.footer {
+    width: 100px;
+    height: 292px;
+    margin: 128px auto; /* Center the footer horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+}
+
+.footer img {
+    width: 138px;
+    height: 138px;
+}
+
+.footer p {
+    width: 1000px; 
+    height: 130px;
+    margin-top: 32px;
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    font-weight: 400;
+}
